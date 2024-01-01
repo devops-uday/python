@@ -58,3 +58,14 @@ sample_list = [1, 'a', 3, True, 'one', 'two', 'three', 4, 5]
 # a, b = b, a
 # print(a, b)
 
+### Properties of a string
+
+## Mutable data type
+# sample_list = [1, 2, 3, 4, [5, 6, 7], 8, 9]
+# sample_list[-2] = 800
+# print(sample_list)
+
+## Reverse a list
+sample_list = [1, 2, 3, 4, [5, 6, 7], 8, 9]
+sample_list = sample_list[::-1]
+print(sample_list)

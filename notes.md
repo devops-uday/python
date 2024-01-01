@@ -83,3 +83,85 @@
 
 ## Unpacking the List
 - Extract individual values from a list into individual variables.
+
+## Properties of string
+- List is a mutable data type i.e, the elements can be altered after they are defined
+- It also supports `+` `*` i.e, extending the original list.
+
+## Tuple data type
+### Constructing Tuple
+### Methods
+### Properties
+
+#### Defining and  Constructing Tuple
+- A Tuple in a Python can be defined using `()` eg: (1, 2, 3)
+- Tuples are used to store multiple items in a single variable.
+- Tuple is one among 4 built-in data types in Python, used to store collections of data. The other 3 are List, Set and Dictionary all with different qualities and usage.
+
+#### Properties of Tuple
+- A tuple is a collection which is ordered and unchanged.
+- Tuple is immutable, therefore it cannot support append and extend operations
+- Tuple is Heterogeneous: Tuples can contain data of types
+- Contains duplicates: Allows duplicates data
+- Can unpack a Tuple.
+
+### Methods
+- `index()`
+- `count()`
+
+
+## Dictionary Data Type
+- A dictionary is created using  a `{'key' : 'value'}` pair structure.
+- Keys always should be of Immutable data type such as tuple, strings, numbers etc
+- In dictionaries, the order in which the elements are inserted is retained.
+- Nested dict data type
+```python
+ sample_dict = {
+    "employee": {
+        "name": "John",
+        "age" : 30,
+        "city" : "New York"
+    }
+}
+```
+## Methods in dict
+- `keys()`
+- `values()`
+- `items()`
+
+## Sets Data type
+- The order of insertion in set is not retained.
+- Set doesn't allow duplicates in the data set.
+- To add elements to a set we use `add()` method.
+
+### Typecasting
+- Changing the datatype of a variable i.e, list --> tuple or list --> set etc
+
+
+## Booleans
+- `True` and `False` are only two values that possible with Boolean.
+
+
+## Comparisons
+- `==` compares the two values are equal or not, returns `true` if equal and `false ` if not equal.
+- `!=` not equal to i.e, compares whether the values are equal or not
+- `>`, `<`, `>=`, `<=`
+
+### Chained comparisons
+- Eg: `1 < 2 < 3` --> (1 < 2) and (2 < 3)
+- `and` --> If both the conditions are true then only the result is true
+- `or` --> If either of the conditions are true i.e, any one of the conditions are true then the result will be true
+- `not` --> If true then it give false result, if false it gives true result.
+
+
+## Conditions in Python
+- `If-else` statement
+- `If-elif-else` statement
+
+
+## Loops in Python
+
+
+### Membership operator
+- We use membership operator to check whether an element is present inside the variable.
+- 
